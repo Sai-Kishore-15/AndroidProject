@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnmp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="60dp"
+        android:text="Media Player"
+        />
+
+    <Button
+        android:id="@+id/btnpic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:text="Send a Text" />
+
+    <EditText
+        android:id="@+id/SendMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="This is where your text would appear"
+        />
+
+</LinearLayout>
